@@ -14,13 +14,16 @@ function App() {
   return (
     <>
       <BrowserRouter>
+        <div>
+          <h1 id='title' className='text-center my-3' >Proyecto Galería</h1>
+        </div>
         <Routes>
-          <Route path="/image1" element={<Image1 />} />
-          <Route path="/image2" element={<Image2 />} />
-          <Route path="/image3" element={<Image3 />} />
-          <Route path="/image4" element={<Image4 />} />
-          <Route path="/image5" element={<Image5 />} />
-          <Route path="/image6" element={<Image6 />} />
+          <Route path="/image1" element={<Image1 className="image-size" />} />
+          <Route path="/image2" element={<Image2 className="image-size" />} />
+          <Route path="/image3" element={<Image3 className="image-size" />} />
+          <Route path="/image4" element={<Image4 className="image-size" />} />
+          <Route path="/image5" element={<Image5 className="image-size" />} />
+          <Route path="/image6" element={<Image6 className="image-size" />} />
         </Routes>
         <Navigation />
       </BrowserRouter>
