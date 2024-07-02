@@ -6,6 +6,7 @@ import { Image4 } from './components/Image4'
 import { Image5 } from './components/Image5'
 import { Image6 } from './components/Image6'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Navigation } from './components/Navigation'
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
           <Route path="/image5" element={<Image5 />} />
           <Route path="/image6" element={<Image6 />} />
         </Routes>
+        <Navigation />
       </BrowserRouter>
     </>
   )
