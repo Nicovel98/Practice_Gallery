@@ -8,39 +8,39 @@ import { Image2 } from "./Image2"
 
 export const Navigation = () => {
     return (
-        <div>
-            <Link to="/image1">
-                <figure>
+        <div className="container mt-4 father">
+            <Link to="/image1" className="links">
+                <figure className="image-size">
                     <Image1 />
                     <figcaption>Transistor img</figcaption>
                 </figure>
             </Link>
-            <Link to="/image2">
-                <figure>
+            <Link to="/image2" className="links">
+                <figure className="image-size">
                     <Image2 />
                     <figcaption>Transistor gif</figcaption>
                 </figure>
             </Link>
-            <Link to="/image3">
-                <figure>
+            <Link to="/image3" className="links">
+                <figure className="image-size">
                     <Image3 />
                     <figcaption>Transistor img</figcaption>
                 </figure>
             </Link>
-            <Link to="/image4">
-                <figure>
+            <Link to="/image4" className="links">
+                <figure className="image-size">
                     <Image4 />
                     <figcaption>Transistor gif</figcaption>
                 </figure>
             </Link>
-            <Link to="/image5">
-                <figure>
+            <Link to="/image5" className="links">
+                <figure className="image-size">
                     <Image5 />
                     <figcaption>Transistor img</figcaption>
                 </figure>
             </Link>
-            <Link to="/image6">
-                <figure>
+            <Link to="/image6" className="links">
+                <figure className="image-size">
                     <Image6 />
                     <figcaption>Transistor gif</figcaption>
                 </figure>

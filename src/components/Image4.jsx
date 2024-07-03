@@ -1,10 +1,13 @@
 import image4 from "../assets/img/transistor-1.gif"
+import PropTypes from "prop-types"
 
-export const Image4 = () => {
+export const Image4 = ({ className }) => {
     return (
-        <div>
-            <img src={image4} alt="Transistor gif" />
-            Imagen 4
+        <div className={`image-container ${className}`}>
+            <img src={image4} alt="Transistor gif" className="image" />
         </div>
     )
+}
+Image4.propTypes = {
+    className: PropTypes.string
 }
